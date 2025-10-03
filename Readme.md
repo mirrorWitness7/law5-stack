@@ -43,6 +43,10 @@ The Law 05 Stack addresses three critical risks:
 /example_session.md    → demo of multi-session arc
 /diagrams/stack_pipeline.png
 ```
+## Pipeline
+Raw Logs → Law 5 (prune) → Law 4 (gate) → SMP (spine) → Pattern → Action
+
+![Law 05 Stack Pipeline](diagrams/stack_pipeline.png)
 
 ---
 
