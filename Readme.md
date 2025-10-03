@@ -46,7 +46,7 @@ The Law 05 Stack addresses three critical risks:
 ## Pipeline
 Raw Logs → Law 5 (prune) → Law 4 (gate) → SMP (spine) → Pattern → Action
 
-![Law 05 Stack Pipeline](diagrams/stack_pipeline.png)
+<img src="diagrams/stack_pipeline.png" alt="Law 05 Stack Pipeline" width="900">
 
 ---
 
