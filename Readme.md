@@ -41,12 +41,21 @@ The Law 05 Stack addresses three critical risks:
 /stack-index.md        → summary of the stack
 /fossil_pipeline.md    → full pipeline walkthrough
 /example_session.md    → demo of multi-session arc
-/diagrams/stack_pipeline.png
 ```
-## Pipeline
-Raw Logs → Law 5 (prune) → Law 4 (gate) → SMP (spine) → Pattern → Action
 
-<img src="diagrams/stack_pipeline.png" alt="Law 05 Stack Pipeline" width="900">
+---
+
+## Pipeline (Mermaid Diagram)
+
+```mermaid
+flowchart LR
+  A[Raw Logs] --> B[Law 5: Input Fidelity]
+  B --> C[Fossil Stream]
+  C --> D[Law 4: Panic Gate]
+  D --> E[SMP: Memory Spine]
+  E --> F[Pattern Recognition]
+  F --> G[Action]
+```
 
 ---
 
